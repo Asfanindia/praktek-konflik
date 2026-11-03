@@ -1,5 +1,7 @@
 <?php
 
-echo "Git Conflict Collaboration";
+function calculatePrice($basePrice, $taxRate) {
+    return $basePrice + ($basePrice * $taxRate);
+}
 
 ?>
